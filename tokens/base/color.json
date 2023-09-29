@@ -1,0 +1,596 @@
+{
+  "color": {
+    "black": {
+      "Singularity": {
+        "value": "#000000",
+        "type": "color",
+        "description": "Black Singularity #000000"
+      },
+      "Alpha": {
+        "Singularity-90": {
+          "value": "rgba(0, 0, 0, 0.9)",
+          "type": "color",
+          "description": "Black Alpha Singularity-90"
+        },
+        "Singularity-85": {
+          "value": "rgba(0, 0, 0, 0.85)",
+          "type": "color",
+          "description": "Black Alpha Singularity-85"
+        },
+        "Singularity-80": {
+          "value": "rgba(0, 0, 0, 0.8)",
+          "type": "color",
+          "description": "Black Alpha Singularity-80"
+        },
+        "Singularity-75": {
+          "value": "rgba(0, 0, 0, 0.75)",
+          "type": "color",
+          "description": "Black Alpha Singularity-75"
+        },
+        "Singularity-70": {
+          "value": "rgba(0, 0, 0, 0.7)",
+          "type": "color",
+          "description": "Black Alpha Singularity-70"
+        },
+        "Singularity-60": {
+          "value": "rgba(0, 0, 0, 0.6)",
+          "type": "color",
+          "description": "Black Alpha Singularity-60"
+        },
+        "Singularity-50": {
+          "value": "rgba(0, 0, 0, 0.5)",
+          "type": "color",
+          "description": "Black Alpha Singularity-50"
+        },
+        "Singularity-40": {
+          "value": "rgba(0, 0, 0, 0.4)",
+          "type": "color",
+          "description": "Black Alpha Singularity-40"
+        },
+        "Singularity-30": {
+          "value": "rgba(0, 0, 0, 0.3)",
+          "type": "color",
+          "description": "Black Alpha Singularity-30"
+        },
+        "Singularity-25": {
+          "value": "rgba(0, 0, 0, 0.25)",
+          "type": "color",
+          "description": "Black Alpha Singularity-25"
+        },
+        "Singularity-20": {
+          "value": "rgba(0, 0, 0, 0.2)",
+          "type": "color",
+          "description": "Black Alpha Singularity-20"
+        },
+        "Singularity-15": {
+          "value": "rgba(0, 0, 0, 0.15)",
+          "type": "color",
+          "description": "Black Alpha Singularity-15"
+        },
+        "Singularity-10": {
+          "value": "rgba(0, 0, 0, 0.1)",
+          "type": "color",
+          "description": "Black Alpha Singularity-10"
+        },
+        "Singularity-05": {
+          "value": "rgba(0, 0, 0, 0.05)",
+          "type": "color",
+          "description": "Black Alpha Singularity-05"
+        },
+        "Singularity-02": {
+          "value": "rgba(0, 0, 0, 0.02)",
+          "type": "color",
+          "description": "Black Alpha Singularity-02"
+        }
+      }
+    },
+    "white": {
+      "SnowWhite": {
+        "value": "#FFFFFF",
+        "type": "color",
+        "description": "White SnowWhite #FFFFFF"
+      },
+      "Alpha": {
+        "SnowWhite-90": {
+          "value": "rgba(255, 255, 255, 0.9)",
+          "type": "color",
+          "description": "White Alpha SnowWhite-90"
+        },
+        "SnowWhite-85": {
+          "value": "rgba(255, 255, 255, 0.85)",
+          "type": "color",
+          "description": "White Alpha SnowWhite-85"
+        },
+        "SnowWhite-80": {
+          "value": "rgba(255, 255, 255, 0.8)",
+          "type": "color",
+          "description": "White Alpha SnowWhite-80"
+        },
+        "SnowWhite-75": {
+          "value": "rgba(255, 255, 255, 0.75)",
+          "type": "color",
+          "description": "White Alpha SnowWhite-75"
+        },
+        "SnowWhite-70": {
+          "value": "rgba(255, 255, 255, 0.7)",
+          "type": "color",
+          "description": "White Alpha SnowWhite-70"
+        },
+        "SnowWhite-60": {
+          "value": "rgba(255, 255, 255, 0.6)",
+          "type": "color",
+          "description": "White Alpha SnowWhite-60"
+        },
+        "SnowWhite-50": {
+          "value": "rgba(255, 255, 255, 0.5)",
+          "type": "color",
+          "description": "White Alpha SnowWhite-50"
+        },
+        "SnowWhite-40": {
+          "value": "rgba(255, 255, 255, 0.4)",
+          "type": "color",
+          "description": "White Alpha SnowWhite-40"
+        },
+        "SnowWhite-30": {
+          "value": "rgba(255, 255, 255, 0.3)",
+          "type": "color",
+          "description": "White Alpha SnowWhite-30"
+        },
+        "SnowWhite-25": {
+          "value": "rgba(255, 255, 255, 0.25)",
+          "type": "color",
+          "description": "White Alpha SnowWhite-25"
+        },
+        "SnowWhite-20": {
+          "value": "rgba(255, 255, 255, 0.2)",
+          "type": "color",
+          "description": "White Alpha SnowWhite-20"
+        },
+        "SnowWhite-15": {
+          "value": "rgba(255, 255, 255, 0.15)",
+          "type": "color",
+          "description": "White Alpha SnowWhite-15"
+        },
+        "SnowWhite-10": {
+          "value": "rgba(255, 255, 255, 0.1)",
+          "type": "color",
+          "description": "White Alpha SnowWhite-10"
+        },
+        "SnowWhite-05": {
+          "value": "rgba(255, 255, 255, 0.05)",
+          "type": "color",
+          "description": "White Alpha SnowWhite-05"
+        },
+        "SnowWhite-02": {
+          "value": "rgba(255, 255, 255, 0.02)",
+          "type": "color",
+          "description": "White Alpha SnowWhite-02"
+        }
+      }
+    },
+    "grey": {
+      "Plasma": {
+        "value": "#FAFAFA",
+        "type": "color",
+        "description": "Grey Plasma #FAFAFA"
+      },
+      "Jupiter": {
+        "value": "#EFEFEF",
+        "type": "color",
+        "description": "Grey Jupiter #EFEFEF"
+      },
+      "SolarCloud": {
+        "value": "#CDCDCD",
+        "type": "color",
+        "description": "Grey SolarCloud #CDCDCD"
+      },
+      "Meteor": {
+        "value": "#AAAAAA",
+        "type": "color",
+        "description": "Grey Meteor #AAAAAA"
+      },
+      "50ShadesofCBS": {
+        "value": "#999999",
+        "type": "color",
+        "description": "Grey 50ShadesofCBS #999999"
+      },
+      "CelestialSphere": {
+        "value": "#666666",
+        "type": "color",
+        "description": "Grey CelestialSphere #666666"
+      },
+      "Nigel": {
+        "value": "#393939",
+        "type": "color",
+        "description": "Grey Nigel #393939"
+      },
+      "Smoke": {
+        "value": "#2D2D2D",
+        "type": "color",
+        "description": "Grey Smoke #2D2D2D"
+      },
+      "DarkMatter": {
+        "value": "#1D1D1D",
+        "type": "color",
+        "description": "Grey DarkMatter #1D1D1D"
+      },
+      "Galaxy": {
+        "value": "#121212",
+        "type": "color",
+        "description": "Grey Galaxy #121212"
+      }
+    },
+    "red": {
+      "Mapple": {
+        "value": "#FFDEDC",
+        "type": "color",
+        "description": "Red Mapple #FFDEDC"
+      },
+      "Garnet": {
+        "value": "#FFAFAA",
+        "type": "color",
+        "description": "Red Garnet #FFAFAA"
+      },
+      "Vermilion": {
+        "value": "#FF736B",
+        "type": "color",
+        "description": "Red Vermilion #FF736B"
+      },
+      "Showtime": {
+        "value": "#FF202C",
+        "type": "color",
+        "description": "Red Showtime #FF202C"
+      },
+      "PersianRed": {
+        "value": "#E71C27",
+        "type": "color",
+        "description": "Red Persian #E71C27"
+      },
+      "Ruby": {
+        "value": "#A40101",
+        "type": "color",
+        "description": "Red Ruby #A40101"
+      },
+      "Lunar": {
+        "value": "#4F0105",
+        "type": "color",
+        "description": "Red Lunar #4F0105"
+      }
+    },
+    "green": {
+      "Lily": {
+        "value": "#DCFFED",
+        "type": "color",
+        "description": "Green Lily #DCFFED"
+      },
+      "Mint": {
+        "value": "#96EFC3",
+        "type": "color",
+        "description": "Green Mint #96EFC3"
+      },
+      "GreenLantern": {
+        "value": "#6BE8AA",
+        "type": "color",
+        "description": "Green Lantern #6BE8AA"
+      },
+      "Bamboo": {
+        "value": "#00C77F",
+        "type": "color",
+        "description": "Green Bamboo #00C77F"
+      },
+      "AlertGreen": {
+        "value": "#00D86D",
+        "type": "color",
+        "description": "Green AlertGreen #00D86D"
+      },
+      "Emerald": {
+        "value": "#008241",
+        "type": "color",
+        "description": "Green Emerald #008241"
+      },
+      "Jade": {
+        "value": "#005B2E",
+        "type": "color",
+        "description": "Green Jade #005B2E"
+      }
+    },
+    "blue": {
+      "Neptune": {
+        "value": "#B1D4FF",
+        "type": "color",
+        "description": "Blue Neptune #B1D4FF"
+      },
+      "pPlusSecondaryLight": {
+        "value": "#4197FE",
+        "type": "color",
+        "description": "Blue P+SecondaryLight #4197FE"
+      },
+      "BlueMyMind": {
+        "value": "#0092F3",
+        "type": "color",
+        "description": "Blue BlueMyMind #0092F3"
+      },
+      "pPlusLight": {
+        "value": "#0064FF",
+        "type": "color",
+        "description": "Blue pPlusLight #0064FF"
+      },
+      "Laguna": {
+        "value": "#1056C9",
+        "type": "color",
+        "description": "Blue Laguna #1056C9"
+      },
+      "pPlusDark": {
+        "value": "#0037C5",
+        "type": "color",
+        "description": "Blue pPlusDark #0037C5"
+      },
+      "pPlusSecondaryMedium": {
+        "value": "#133597",
+        "type": "color",
+        "description": "Blue P+SecondaryMedium #133597"
+      }
+    },
+    "indigo": {
+      "Solitude": {
+        "value": "#DCDBFF",
+        "type": "color",
+        "description": "Indigo Solitude #DCDBFF"
+      },
+      "Daisy": {
+        "value": "#9697B6",
+        "type": "color",
+        "description": "Indigo Daisy #9697B6"
+      },
+      "Bluebell": {
+        "value": "#6B6C98",
+        "type": "color",
+        "description": "Indigo Bluebell #6B6C98"
+      },
+      "Sirius": {
+        "value": "#36375C",
+        "type": "color",
+        "description": "Indigo Sirius #36375C"
+      },
+      "Pulsar": {
+        "value": "#2B2C6C",
+        "type": "color",
+        "description": "Indigo Pulsar #2B2C6C"
+      },
+      "pPlusSecondaryDark": {
+        "value": "#00014E",
+        "type": "color",
+        "description": "Indigo P+SecondaryDark #00014E"
+      },
+      "Sapphire": {
+        "value": "#000130",
+        "type": "color",
+        "description": "Indigo Sapphire #000130"
+      }
+    },
+    "yellow": {
+      "CosmicLatte": {
+        "value": "#FFF5DC",
+        "type": "color",
+        "description": "Yellow CosmicLatte #FFF5DC"
+      },
+      "Nectar": {
+        "value": "#FFE7AD",
+        "type": "color",
+        "description": "Yellow Nectar #FFE7AD"
+      },
+      "Saturn": {
+        "value": "#FFDD8C",
+        "type": "color",
+        "description": "Yellow Saturn #FFDD8C"
+      },
+      "Venus": {
+        "value": "#FFCE5A",
+        "type": "color",
+        "description": "Yellow Venus #FFCE5A"
+      },
+      "Supernova": {
+        "value": "#FFC438",
+        "type": "color",
+        "description": "Yellow Supernova #FFC438"
+      },
+      "Jasper": {
+        "value": "#917020",
+        "type": "color",
+        "description": "Yellow Jasper #917020"
+      },
+      "Umber": {
+        "value": "#6B5218",
+        "type": "color",
+        "description": "Yellow Umber #6B5218"
+      }
+    },
+    "orange": {
+      "Phobos": {
+        "value": "#FFEFDC",
+        "type": "color",
+        "description": "Orange Phobos #FFEFDC"
+      },
+      "Pluto": {
+        "value": "#FFC58A",
+        "type": "color",
+        "description": "Orange Pluto #FFC58A"
+      },
+      "Titan": {
+        "value": "#FFAF5E",
+        "type": "color",
+        "description": "Orange Titan #FFAF5E"
+      },
+      "Mars": {
+        "value": "#E36F00",
+        "type": "color",
+        "description": "Orange Mars #E36F00"
+      },
+      "Europa": {
+        "value": "#B65900",
+        "type": "color",
+        "description": "Orange Europa #B65900"
+      },
+      "Bronze": {
+        "value": "#8A4400",
+        "type": "color",
+        "description": "Orange Bronze #8A4400"
+      },
+      "Earth": {
+        "value": "#663200",
+        "type": "color",
+        "description": "Orange Earth #663200"
+      }
+    },
+    "pink": {
+      "Rose": {
+        "value": "#FFDCE7",
+        "type": "color",
+        "description": "Pink Rose #FFDCE7"
+      },
+      "Pearl": {
+        "value": "#F7AAD4",
+        "type": "color",
+        "description": "Pink Pearl #F7AAD4"
+      },
+      "Moonstone": {
+        "value": "#F27CBD",
+        "type": "color",
+        "description": "Pink Moonstone #F27CBD"
+      },
+      "Neon": {
+        "value": "#EB2F96",
+        "type": "color",
+        "description": "Pink Neon #EB2F96"
+      },
+      "Magenta": {
+        "value": "#C82880",
+        "type": "color",
+        "description": "Pink Magenta #C82880"
+      },
+      "Amaranth": {
+        "value": "#A7216B",
+        "type": "color",
+        "description": "Pink Amaranth #A7216B"
+      },
+      "Grenache": {
+        "value": "#6A1544",
+        "type": "color",
+        "description": "Pink Grenache #6A1544"
+      }
+    },
+    "violet": {
+      "Lavender": {
+        "value": "#DCD0FF",
+        "type": "color",
+        "description": "Violet Lavender #DCD0FF"
+      },
+      "Charoite": {
+        "value": "#AE9EDA",
+        "type": "color",
+        "description": "Violet Charoite #AE9EDA"
+      },
+      "Lilac": {
+        "value": "#9B80E8",
+        "type": "color",
+        "description": "Violet Lilac #9B80E8"
+      },
+      "Vaccinium": {
+        "value": "#5B3BB3",
+        "type": "color",
+        "description": "Violet Vaccinium #5B3BB3"
+      },
+      "Vitis": {
+        "value": "#3913A4",
+        "type": "color",
+        "description": "Violet Vitis #3913A4"
+      },
+      "Midnight": {
+        "value": "#280D73",
+        "type": "color",
+        "description": "Violet Midnight #280D73"
+      },
+      "Amethyst": {
+        "value": "#1F0A5A",
+        "type": "color",
+        "description": "Violet Amethyst #1F0A5A"
+      }
+    },
+    "other": {
+      "Transparent": {
+        "value": "rgba(0, 0, 0, 0)",
+        "type": "color",
+        "description": "Transparent Color"
+      }
+    },
+    "p+marketing": {
+      "P+ Secondary Gray-01": {
+        "value": "#e8e9eb",
+        "type": "color"
+      },
+      "P+ Secondary Gray-02": {
+        "value": "#e2e2ea",
+        "type": "color"
+      },
+      "P+ Secondary Gray-03": {
+        "value": "#d7dbe7",
+        "type": "color"
+      },
+      "P+ Secondary Gray-04": {
+        "value": "#9ca6bf",
+        "type": "color"
+      },
+      "P+ Secondary Gray-05": {
+        "value": "#5b616d",
+        "type": "color"
+      },
+      "P+ Secondary Gray-06": {
+        "value": "#212123",
+        "type": "color"
+      }
+    },
+    "gradient": {
+      "pPlus": {
+        "LightToDark": {
+          "value": "linear-gradient(225deg, {color.blue.pPlusLight} 0%, {color.blue.pPlusDark} 100%)",
+          "type": "color",
+          "description": "Gradient P+ LightToDark\n#0064FF to #0037C5 "
+        },
+        "DarkToLight": {
+          "value": "linear-gradient(225deg, {color.blue.pPlusDark} 0%, {color.blue.pPlusLight} 100%)",
+          "type": "color",
+          "description": "Gradient P+ DarkToLight\n#0037C5 to #0064FF"
+        }
+      },
+      "cbs": {
+        "LightToDark": {
+          "value": "linear-gradient(225deg, {color.blue.BlueMyMind} 0%, {color.blue.Laguna} 100%)",
+          "type": "color",
+          "description": "Gradient CBS LightToDark\n#0092F3 to #1056C9"
+        },
+        "DarkToLight": {
+          "value": "linear-gradient(225deg, {color.blue.Laguna} 0%, {color.blue.BlueMyMind} 100%)",
+          "type": "color",
+          "description": "Gradient CBS DarkToLight\n#1056C9 to #0092F3"
+        }
+      },
+      "content": {
+        "Movies": {
+          "value": "linear-gradient(180deg, {color.blue.pPlusSecondaryLight} 0%, {color.blue.pPlusLight} 100%)",
+          "type": "color",
+          "description": "Gradient Content Movies\n#4197FE to #0064FF "
+        },
+        "Shows": {
+          "value": "linear-gradient(180deg, {color.violet.Lilac} 0%, {color.violet.Vitis} 100%)",
+          "type": "color",
+          "description": "Gradient Content Shows\n#9B80E8 to #3913A4"
+        },
+        "showtime": {
+          "value": "linear-gradient(107.39deg, {color.red.Lunar} 0%, {color.red.PersianRed} 100%)",
+          "type": "color",
+          "description": "Gradient Content Showtime\n#4F0105 to #E71C27 "
+        }
+      }
+    }
+  }
+}

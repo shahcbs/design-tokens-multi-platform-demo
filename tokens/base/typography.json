@@ -1,0 +1,73 @@
+{
+    "font-size": {
+        "16": {
+            "value": "16px",
+            "type": "fontSizes",
+            "description": "Font Size 16px"
+        },
+        "18": {
+            "value": "18px",
+            "type": "fontSizes",
+            "description": "Font Size 18px"
+        },
+        "20": {
+            "value": "20px",
+            "type": "fontSizes",
+            "description": "Font Size 20px"
+        },
+        "22": {
+            "value": "22px",
+            "type": "fontSizes",
+            "description": "Font Size 22px"
+        },
+        "23": {
+            "value": "23px",
+            "type": "fontSizes",
+            "description": "Font Size 23px"
+        },
+        "24": {
+            "value": "24px",
+            "type": "fontSizes",
+            "description": "Font Size 24px"
+        },
+        "26": {
+            "value": "26px",
+            "type": "fontSizes",
+            "description": "Font Size 26px"
+        }
+    },
+    "font-family": {
+        "Proxima Nova A": {
+            "value": "Proxima Nova A, sans-serif",
+            "type": "fontFamilies",
+            "description": "Font Family Sans Serif"
+        }
+    },
+    "font-weight": {
+        "light": {
+            "value": "300",
+            "type": "fontWeights",
+            "description": "Font Weight Light (300)"
+        },
+        "regular": {
+            "value": "400",
+            "type": "fontWeights",
+            "description": "Font Weight Regular (400)"
+        },
+        "semibold": {
+            "value": "600",
+            "type": "fontWeights",
+            "description": "Font Weight Semi Bold (600)"
+        },
+        "bold": {
+            "value": "700",
+            "type": "fontWeights",
+            "description": "Font Weight Bold (700)"
+        },
+        "black": {
+            "value": "900",
+            "type": "fontWeights",
+            "description": "Font Weight Black (900)"
+        }
+    }
+}

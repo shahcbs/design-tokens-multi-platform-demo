@@ -1,0 +1,112 @@
+{
+    "size": {
+        "1": {
+            "value": "1px",
+            "type": "sizing"
+        },
+        "2": {
+            "value": "2px",
+            "type": "sizing"
+        },
+        "4": {
+            "value": "4px",
+            "type": "sizing"
+        },
+        "6": {
+            "value": "16px",
+            "type": "sizing"
+        },
+        "8": {
+            "value": "8px",
+            "type": "sizing"
+        },
+        "12": {
+            "value": "12px",
+            "type": "sizing"
+        },
+        "24": {
+            "value": "24px",
+            "type": "sizing"
+        },
+        "26": {
+            "value": "26px",
+            "type": "sizing"
+        },
+        "28": {
+            "value": "28px",
+            "type": "sizing"
+        },
+        "32": {
+            "value": "32px",
+            "type": "sizing"
+        },
+        "36": {
+            "value": "36px",
+            "type": "sizing"
+        },
+        "38": {
+            "value": "38px",
+            "type": "sizing"
+        },
+        "40": {
+            "value": "40px",
+            "type": "sizing"
+        },
+        "44": {
+            "value": "44px",
+            "type": "sizing"
+        },
+        "46": {
+            "value": "46px",
+            "type": "sizing"
+        },
+        "48": {
+            "value": "48px",
+            "type": "sizing"
+        },
+        "56": {
+            "value": "56px",
+            "type": "sizing"
+        },
+        "60": {
+            "value": "60px",
+            "type": "sizing"
+        },
+        "64": {
+            "value": "64px",
+            "type": "sizing"
+        },
+        "72": {
+            "value": "72px",
+            "type": "sizing"
+        },
+        "80": {
+            "value": "80px",
+            "type": "sizing"
+        },
+        "100": {
+            "value": "100px",
+            "type": "sizing"
+        },
+        "112": {
+            "value": "112px",
+            "type": "sizing"
+        },
+        "120": {
+            "value": "120px",
+            "type": "sizing"
+        },
+        "160": {
+            "value": "160px",
+            "type": "sizing"
+        },
+        "200": {
+            "value": "200px",
+            "type": "sizing"
+        },
+        "scale": {
+            "value": "1.13",
+            "type": "sizing"
+        }
+    }
+}
