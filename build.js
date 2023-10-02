@@ -1,191 +1,15 @@
-const StyleDictionaryPackage = require('style-dictionary');
+// @flow strict
+const StyleDictionary = require('style-dictionary');
 
-// HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
+const { fileHeader } = StyleDictionary.formatHelpers;
 
-function getStyleDictionaryConfig(platform) {
-    return {
-        "source": [
-            `tokens/**/*.json`
-
-        ],
-        "platforms": {
-            "web": {
-                "transformGroup": "web",
-                "buildPath": "dist/web/",
-                "transforms": ["attribute/cti", "size/px", "name/cti/kebab", "color/rgb", "color/css"],
-                "files": [{
-                    "destination": "tokens.css",
-                    "format": "css/variables",
-                    "selector": ":root"
-                }]
-            },
-
-            "json": {
-                "transformGroup": "css",
-                "buildPath": "dist/json/",
-                "files": [
-                    {
-                        "destination": "tokens.json",
-                        "format": "json/flat"
-                    }]
-            },
-
-            "android": {
-                "transformGroup": "android",
-                "buildPath": "dist/android/",
-                "transforms": ["attribute/cti", "name/cti/snake", "color/hex8android", "size/pxToDpOrSp"],
-                "files": [{
-                    "destination": "tokens.colors.xml",
-                    "format": "android/colors"
-                }, {
-                    "destination": "tokens.spacing.xml",
-                    "format": "android/resources",
-                    "resourceType": "dimen",
-                    "filter": {
-                        "attributes": {
-                            "category": "spacing"
-                        },
-                    },
-
-                },
-                {
-                    "destination": "tokens.size.xml",
-                    "format": "android/resources",
-                    "resourceType": "dimen",
-                    "filter": {
-                        "attributes": {
-                            "category": "size"
-                        },
-                    },
-
-                }, {
-                    "destination": "tokens.border.xml",
-                    "format": "android/resources",
-                    "resourceType": "dimen",
-                    "filter": {
-                        "attributes": {
-                            "category": "border"
-                        },
-                    },
-
-                }, {
-                    "destination": "tokens.opacity.xml",
-                    "format": "android/resources",
-                    "resourceType": "dimen",
-                    "filter": {
-                        "attributes": {
-                            "category": "opacity"
-                        },
-                    },
-
-                }, {
-                    "destination": "tokens.font-size.xml",
-                    "format": "android/resources",
-                    "resourceType": "dimen",
-                    "filter": {
-                        "attributes": {
-                            "category": "font-size"
-                        },
-                    },
-
-                }]
-            },
-            "ios": {
-                "transformGroup": "ios",
-                "buildPath": "dist/ios/",
-                "transforms": ["attribute/cti", "name/cti/pascal", "color/UIColor", "content/objC/literal", "asset/objC/literal", "size/pxTopt", "font/objC/literal"],
-                "files": [
-                    {
-                        "destination": "VDSDesignTokensColor.h",
-                        "format": "ios/colors.h",
-                        "className": "VDSDesignTokensColor",
-                        "type": "VDSDesignTokensColorName",
-                        "filter": {
-                            "attributes": {
-                                "category": "color"
-                            }
-                        }
-                    },
-                    {
-                        "destination": "VDSDesignTokensColor.m",
-                        "format": "ios/colors.m",
-                        "className": "VDSDesignTokensColor",
-                        "type": "VDSDesignTokensColorName",
-                        "filter": {
-                            "attributes": {
-                                "category": "color"
-                            }
-                        }
-                    }
-                ]
-            },
-            "ios-swift": {
-                "transformGroup": "ios-swift",
-                "buildPath": "dist/ios-swift/",
-                "transforms": ["attribute/cti", "name/cti/pascal", "color/UIColor", "content/objC/literal", "asset/objC/literal", "size/pxTopt", "font/objC/literal"],
-
-                "files": [
-                    {
-                        "destination": "VDSDesignTokens.swift",
-                        "format": "ios-swift/class.swift",
-                        "className": "VDSDesignTokens",
-                        "filter": {}
-                    }
-                ]
-            },
-            "ios-swift-separate-enums": {
-                "transformGroup": "ios-swift-separate",
-                "buildPath": `dist/ios-swift/`,
-                "transforms": ["attribute/cti", "name/cti/pascal", "color/UIColor", "content/objC/literal", "asset/objC/literal", "size/pxTopt", "font/objC/literal"],
-                "files": [
-                    {
-                        "destination": "VDSDesignTokensColor.swift",
-                        "format": "ios-swift/enum.swift",
-                        "className": "VDSDesignTokensColor",
-                        "filter": {
-                            "attributes": {
-                                "category": "color"
-                            }
-                        }
-                    }
-                ]
-            },
-            "react-native": {
-                "transformGroup": "react-native",
-                "buildPath": "dist/reactNative/",
-                "transforms": ["name/cti/camel", "size/object", "color/css"],
-                "files": [{
-                    "destination": "tokens.js",
-                    "format": "javascript/module"
-                }]
-            }
-
-
-        }
-    };
-}
-
-
-
-//Transforms dimensions to px
-
-function transformDimension(value) {
-    if (value.endsWith('px')) {
-        return value;
-    }
-    return value + 'px';
-}
-// Transform fontSizes to px
-StyleDictionaryPackage.registerTransform({
-    name: 'size/px',
-    type: 'value',
-    transitive: true,
-    matcher: token => ['fontSizes', 'dimension', 'borderRadius', 'borderWidth', 'spacing', 'sizing'].includes(token.type),
-    transformer: token => transformDimension(token.value),
+StyleDictionary.registerFileHeader({
+    name: 'flowCustomHeader',
+    // defaultMessage contains the 2 lines that appear in the default file header
+    fileHeader: (defaultMessage) => [`@flow strict`, ...defaultMessage],
 });
 
-// Custom transform to convert px to dp/sp for android
-StyleDictionaryPackage.registerTransform({
+StyleDictionary.registerTransform({
     name: 'size/pxToDpOrSp',
     type: 'value',
     matcher(prop) {
@@ -198,32 +22,74 @@ StyleDictionaryPackage.registerTransform({
     },
 });
 
-// Custom transform to convert px to pt for iOS
-StyleDictionaryPackage.registerTransform({
-    name: 'size/pxTopt',
-    type: 'value',
-    matcher: (prop) => {
-        return prop.value.match(/^-?[\d.]+px$/);
-    },
-    transformer: (prop) => {
-        return prop.value.replace(/px$/, 'pt');
+StyleDictionary.registerFormat({
+    name: 'customJSArrayFormat',
+    formatter: ({ dictionary, file }) => {
+        const tokenArray = dictionary.allTokens.map((token) =>
+            JSON.stringify({
+                name: token.path.join('-'),
+                value: token.value,
+                darkValue: token.darkValue,
+                comment: token.comment,
+                category: token.attributes.category,
+            }),
+        );
+        return `${fileHeader({ file, commentStyle: 'short' })} module.exports = [${tokenArray}]`;
     },
 });
 
+StyleDictionary.registerFormat({
+    name: 'customJSIndividualFormat',
+    formatter: ({ dictionary }) =>
+        `// @flow strict\n\n${StyleDictionary.format['javascript/es6']({
+            dictionary,
+        })}`,
+});
 
-console.log('Build started...');
+// $FlowFixMe[missing-local-annot]
+function darkFormat(dictionary) {
+    return dictionary.allTokens.map((token) => {
+        const { darkValue } = token;
+        if (darkValue) {
+            return { ...token, value: token.darkValue };
+        }
+        return token;
+    });
+}
 
-['web', 'json', 'ios', 'ios-swift', 'ios-swift-separate-enums', 'android', 'react-native'].forEach(function (platform) {
+function darkFormatWrapper(format /*: string */) {
+    // $FlowFixMe[missing-local-annot]
+    return (args) => {
+        const dictionary = { ...args.dictionary };
+        // Override each token's `value` with `darkValue`
+        dictionary.allTokens = darkFormat(dictionary);
+        // Use the built-in format but with our customized dictionary object
+        // so it will output the darkValue instead of the value
+        return StyleDictionary.format[format]({
+            ...args,
+            dictionary,
+        });
+    };
+}
 
-    console.log('\n==============================================');
-    console.log(`\nProcessing: [${platform}]`);
+// $FlowFixMe[missing-local-annot]
+function addFlowTypes(dictionaryTokens) {
+    return `// @flow strict\n/* This file is automatically generated by style-dictionary*/\n\ndeclare module.exports: {|\n${dictionaryTokens
+        .map((token) => `  +"${token.name}": ${JSON.stringify(token.value)}`)
+        .join(',\n')}\n|}`;
+}
 
-    const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(platform));
+function jsonFlatFlow() {
+    // $FlowFixMe[missing-local-annot]
+    return ({ dictionary }) => addFlowTypes(dictionary.allTokens);
+}
+function cssDarkJsonFlatFlow() {
+    // $FlowFixMe[missing-local-annot]
+    return ({ dictionary }) => addFlowTypes(darkFormat(dictionary));
+}
 
-    StyleDictionary.buildPlatform(platform);
-
-    console.log('\nEnd processing');
-})
-
-console.log('\n==============================================');
-console.log('\nBuild completed!');
+StyleDictionary.registerFormat({
+    name: 'jsonFlatFlow',
+    formatter: jsonFlatFlow(),
+});
+StyleDictionary.extend('config.json').buildAllPlatforms();
