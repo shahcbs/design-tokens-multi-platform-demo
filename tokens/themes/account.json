@@ -1,0 +1,141 @@
+{
+    "color": {
+        "ui": {
+            "canvas": {
+                "value": "{color.white.SnowWhite}",
+                "type": "color",
+                "description": "#FFFFFF Used as bg on main app"
+            },
+            "surface-primary": {
+                "value": "{color.grey.Plasma}",
+                "type": "color",
+                "description": "#FAFAFA Used as bg on UI element surface"
+            },
+            "surface-secondary": {
+                "value": "{color.grey.Jupiter}",
+                "type": "color",
+                "description": "#EFEFEF Used as bg on UI element surface"
+            }
+        },
+        "accent": {
+            "primary": {
+                "value": "{color.white.SnowWhite}",
+                "type": "color",
+                "description": "#FFFFFF Used as bg/border/fill on various UI elements"
+            },
+            "secondary": {
+                "value": "{color.blue.pPlusDark}",
+                "type": "color",
+                "description": "#0037C5 Used as bg/border/fill on various UI elements"
+            }
+        },
+        "fg": {
+            "primary": {
+                "value": "{color.grey.DarkMatter}",
+                "type": "color",
+                "description": "#1D1D1D Used as fill on various text/icon/logo elements"
+            },
+            "secondary": {
+                "value": "{color.grey.Nigel}",
+                "type": "color",
+                "description": "#393939 Used as fill on various text/icon/logo elements"
+            },
+            "tertiary": {
+                "value": "{color.grey.CelestialSphere}",
+                "type": "color",
+                "description": "#666666 Used as fill on various text/icon/logo elements"
+            },
+            "critical": {
+                "value": "{color.red.PersianRed}",
+                "type": "color",
+                "description": "#E71C27 Used as fill on various text/icon/logo elements"
+            },
+            "success": {
+                "value": "{color.green.Emerald}",
+                "type": "color",
+                "description": "#008241 Used as fill on various text/icon/logo elements"
+            },
+            "inverse": {
+                "value": "{color.white.SnowWhite}",
+                "type": "color",
+                "description": "#FFFFFF Used as fill on various text/icon/logo elements"
+            },
+            "links": {
+                "value": "{color.blue.pPlusDark}",
+                "type": "color",
+                "description": "#0037C5 Used as fill on various text/icon/logo elements"
+            },
+            "disabled": {
+                "value": "{color.grey.Meteor}",
+                "type": "color",
+                "description": "#AAAAAA Used as fill on various text/icon/logo elements"
+            }
+        },
+        "bg": {
+            "intense": {
+                "value": "{color.grey.50ShadesofCBS}",
+                "type": "color",
+                "description": "#999999 Used as bg/fill on various UI elements"
+            },
+            "strong": {
+                "value": "{color.grey.Meteor}",
+                "type": "color",
+                "description": "#AAAAAA Used as bg/fill on various UI elements"
+            },
+            "soft": {
+                "value": "{color.grey.SolarCloud}",
+                "type": "color",
+                "description": "#CDCDCD Used as bg/fill on various UI elements"
+            },
+            "sheer": {
+                "value": "{color.black.Alpha.Singularity-20}",
+                "type": "color",
+                "description": "#00000026 Used as bg/fill on various UI elements"
+            },
+            "mist": {
+                "value": "{color.black.Alpha.Singularity-05}",
+                "type": "color",
+                "description": "#0000000D Used as bg/fill on various UI elements"
+            },
+            "disabled": {
+                "value": "{color.grey.Jupiter}",
+                "type": "color",
+                "description": "#EFEFEF Used as bg/fill on various UI elements"
+            }
+        },
+        "border": {
+            "soft": {
+                "value": "{color.grey.SolarCloud}",
+                "type": "color",
+                "description": "#CDCDCD Used as border on various UI elements"
+            },
+            "milky": {
+                "value": "{color.black.Alpha.Singularity-60}",
+                "type": "color",
+                "description": "#00000099 Used as border on various UI elements"
+            },
+            "selected": {
+                "value": "{color.grey.SolarCloud}",
+                "type": "color",
+                "description": "#CDCDCD Used as border on various UI elements"
+            },
+            "disabled": {
+                "value": "{color.grey.Jupiter}",
+                "type": "color",
+                "description": "#EFEFEF Used as border on various UI elements"
+            }
+        },
+        "semantic": {
+            "critical-primary": {
+                "value": "{color.red.PersianRed}",
+                "type": "color",
+                "description": "#E71C27 Used as bg/border/fill on critical UI elements"
+            },
+            "success-primary": {
+                "value": "{color.green.Emerald}",
+                "type": "color",
+                "description": "#008241 Used as bg/border/fill on success UI elements"
+            }
+        }
+    }
+}

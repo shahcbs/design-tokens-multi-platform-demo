@@ -103,10 +103,6 @@
         "200": {
             "value": "200px",
             "type": "sizing"
-        },
-        "scale": {
-            "value": "1.13",
-            "type": "sizing"
         }
     }
 }

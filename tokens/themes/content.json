@@ -1,0 +1,313 @@
+{
+    "color": {
+        "ui": {
+            "canvas": {
+                "value": "{color.grey.Galaxy}",
+                "type": "color",
+                "description": "#121212\nUsed as bg on main app"
+            },
+            "surface-primary": {
+                "value": "{color.black.Singularity}",
+                "type": "color",
+                "description": "#000000\nUsed as bg on UI element surface"
+            },
+            "surface-secondary": {
+                "value": "{color.grey.DarkMatter}",
+                "type": "color",
+                "description": "#1D1D1D Used as bg on UI element surface"
+            }
+        },
+        "brand": {
+            "primary": {
+                "value": "{color.blue.pPlusLight}",
+                "type": "color",
+                "description": "#0064FF Used as bg/border/fill on various UI elements"
+            },
+            "secondary": {
+                "value": "{color.blue.pPlusDark}",
+                "type": "color",
+                "description": "#0064FF Used as bg/border/fill on various UI elements"
+            },
+            "gradient": {
+                "value": "{color.gradient.pPlus.LightToDark}",
+                "type": "color",
+                "description": "#0064FF,#0037C5\nUsed as bg/border/fill on various UI elements"
+            },
+            "gradient-inverse": {
+                "value": "{color.gradient.pPlus.DarkToLight}",
+                "type": "color",
+                "description": "#0037C5,#0064FF\nUsed as bg/border/fill on various UI elements"
+            }
+        },
+        "accent": {
+            "primary": {
+                "value": "{color.blue.pPlusDark}",
+                "type": "color",
+                "description": "#0037C5\nUsed as bg/border/fill on various UI elements"
+            },
+            "secondary": {
+                "value": "{color.white.SnowWhite}",
+                "type": "color",
+                "description": "#FFFFFF Used as bg/border/fill on various UI elements"
+            }
+        },
+        "fg": {
+            "primary": {
+                "value": "{color.white.SnowWhite}",
+                "type": "color",
+                "description": "#FFFFFF Used as fill on various text/icon/logo elements"
+            },
+            "secondary": {
+                "value": "{color.grey.SolarCloud}",
+                "type": "color",
+                "description": "#CDCDCD Used as fill on various text/icon/logo elements"
+            },
+            "tertiary": {
+                "value": "{color.grey.Meteor}",
+                "type": "color",
+                "description": "#AAAAAA Used as fill on various text/icon/logo elements"
+            },
+            "links": {
+                "value": "{color.blue.pPlusSecondaryLight}",
+                "type": "color",
+                "description": "#4197FE Used as fill on various text/icon/logo elements"
+            },
+            "critical": {
+                "value": "{color.red.Vermilion}",
+                "type": "color",
+                "description": "#FF736B Used as fill on various text/icon/logo elements"
+            },
+            "success": {
+                "value": "{color.green.AlertGreen}",
+                "type": "color",
+                "description": "#00D86D Used as fill on various text/icon/logo elements"
+            },
+            "info": {
+                "value": "{color.white.SnowWhite}",
+                "type": "color",
+                "description": "#FFFFFF Used as fill on various text/icon/logo elements"
+            },
+            "inverse": {
+                "value": "{color.grey.DarkMatter}",
+                "type": "color",
+                "description": "#1D1D1D Used as fill on various text/icon/logo elements"
+            },
+            "label-primary": {
+                "value": "{color.white.SnowWhite}",
+                "type": "color",
+                "description": "#FFFFFF Used as fill on various text/icon/logo elements"
+            },
+            "label-secondary": {
+                "value": "{color.grey.SolarCloud}",
+                "type": "color",
+                "description": "#CDCDCD Used as fill on various text/icon/logo elements"
+            },
+            "label-tertiary": {
+                "value": "{color.grey.Meteor}",
+                "type": "color",
+                "description": "#AAAAAA Used as fill on various text/icon/logo elements"
+            },
+            "disabled": {
+                "value": "{color.grey.CelestialSphere}",
+                "type": "color",
+                "description": "#666666 Used as fill on various text/icon/logo elements"
+            }
+        },
+        "bg": {
+            "darkest": {
+                "value": "{color.black.Singularity}",
+                "type": "color",
+                "description": "#000000 Used as bg/fill on various UI elements"
+            },
+            "darker": {
+                "value": "{color.grey.Galaxy}",
+                "type": "color",
+                "description": "#121212 Used as bg/fill on various UI elements"
+            },
+            "dark": {
+                "value": "{color.grey.DarkMatter}",
+                "type": "color",
+                "description": "#1D1D1D Used as bg/fill on various UI elements"
+            },
+            "intense": {
+                "value": "{color.grey.Smoke}",
+                "type": "color",
+                "description": "#2D2D2D Used as bg/fill on various UI elements"
+            },
+            "strong": {
+                "value": "{color.grey.Nigel}",
+                "type": "color",
+                "description": "#393939 Used as bg/fill on various UI elements"
+            },
+            "soft": {
+                "value": "{color.grey.CelestialSphere}",
+                "type": "color",
+                "description": "#666666 Used as bg/fill on various UI elements"
+            },
+            "snow": {
+                "value": "{color.white.SnowWhite}",
+                "type": "color",
+                "description": "#FFFFFF Used as bg/fill on various UI elements"
+            },
+            "cloudy": {
+                "value": "{color.white.Alpha.SnowWhite-85}",
+                "type": "color",
+                "description": "#FFFFFFD9 Used as bg/fill on various UI elements"
+            },
+            "milky": {
+                "value": "{color.white.Alpha.SnowWhite-75}",
+                "type": "color",
+                "description": "#FFFFFFBF Used as bg/fill on various UI elements"
+            },
+            "frosted": {
+                "value": "{color.white.Alpha.SnowWhite-60}",
+                "type": "color",
+                "description": "#FFFFFF99 Used as bg/fill on various UI elements"
+            },
+            "translucent": {
+                "value": "{color.white.Alpha.SnowWhite-40}",
+                "type": "color",
+                "description": "#FFFFFF66 Used as bg/fill on various UI elements"
+            },
+            "sheer": {
+                "value": "{color.white.Alpha.SnowWhite-20}",
+                "type": "color",
+                "description": "#FFFFFF33 Used as bg/fill on various UI elements"
+            },
+            "mist": {
+                "value": "{color.white.Alpha.SnowWhite-10}",
+                "type": "color",
+                "description": "#FFFFFF1A Used as bg/fill on various UI elements"
+            },
+            "glass": {
+                "value": "{color.white.Alpha.SnowWhite-05}",
+                "type": "color",
+                "description": "#FFFFFF0D Used as bg/fill on various UI elements"
+            },
+            "clear": {
+                "value": "{color.other.Transparent}",
+                "type": "color",
+                "description": "#00000000 Used as bg/fill on various UI elements"
+            },
+            "overlay": {
+                "value": "{color.black.Alpha.Singularity-60}",
+                "type": "color",
+                "description": "#00000099 Used as bg/fill on various UI elements"
+            },
+            "disabled": {
+                "value": "{color.grey.Nigel}",
+                "type": "color",
+                "description": "#999999 Used as bg/fill on various UI elements"
+            }
+        },
+        "border": {
+            "soft": {
+                "value": "{color.grey.CelestialSphere}",
+                "type": "color",
+                "description": "#666666 Used as border on various UI elements"
+            },
+            "snow": {
+                "value": "{color.white.SnowWhite}",
+                "type": "color",
+                "description": "#FFFFFF Used as border on various UI elements"
+            },
+            "milky": {
+                "value": "{color.white.Alpha.SnowWhite-75}",
+                "type": "color",
+                "description": "#FFFFFFBF Used as border on various UI elements"
+            },
+            "frosted": {
+                "value": "{color.white.Alpha.SnowWhite-60}",
+                "type": "color",
+                "description": "#FFFFFF99 Used as border on various UI elements"
+            },
+            "input": {
+                "value": "{color.grey.CelestialSphere}",
+                "type": "color",
+                "description": "#666666 Used as border on various UI elements"
+            },
+            "focus": {
+                "value": "{color.blue.pPlusSecondaryLight}",
+                "type": "color",
+                "description": "#4197FE Used as border on various UI elements"
+            },
+            "selected": {
+                "value": "{color.blue.pPlusDark}",
+                "type": "color",
+                "description": "#0037C5 Used as border on various UI elements"
+            },
+            "disabled": {
+                "value": "{color.white.Alpha.SnowWhite-20}",
+                "type": "color",
+                "description": "#FFFFFF33 Used as border on various UI elements"
+            }
+        },
+        "semantic": {
+            "critical-primary": {
+                "value": "{color.red.Vermilion}",
+                "type": "color",
+                "description": "#FF736B Used as bg/border/fill on critical UI elements"
+            },
+            "success-primary": {
+                "value": "{color.green.AlertGreen}",
+                "type": "color",
+                "description": "#00D86D Used as bg/border/fill on success UI elements"
+            }
+        },
+        "decorative": {
+            "shadow": {
+                "value": "{color.black.Singularity}",
+                "type": "color",
+                "description": "#000000 Used as shadows on various UI elements"
+            },
+            "live-dot": {
+                "value": "{color.red.PersianRed}",
+                "type": "color",
+                "description": "#E71C27 Used as fill on live UI elements"
+            }
+        }
+    },
+    "border": {
+        "radius": {
+            "square": {
+                "value": "{border.radius.0}",
+                "type": "borderRadius"
+            },
+            "round": {
+                "value": "{border.radius.4}",
+                "type": "borderRadius"
+            },
+            "rounder": {
+                "value": "{border.radius.5}",
+                "type": "borderRadius"
+            },
+            "pill": {
+                "value": "{border.radius.9}",
+                "type": "borderRadius"
+            },
+            "circle": {
+                "value": "{border.radius.10}",
+                "type": "borderRadius"
+            }
+        },
+        "width": {
+            "thin": {
+                "value": "{border.width.1}",
+                "type": "borderWidth"
+            },
+            "medium": {
+                "value": "{border.width.2}",
+                "type": "borderWidth"
+            },
+            "thick": {
+                "value": "{border.width.3}",
+                "type": "borderWidth"
+            },
+            "bold": {
+                "value": "{border.width.4}",
+                "type": "borderWidth",
+                "description": "Border Width Bold 4px"
+            }
+        }
+    }
+}
